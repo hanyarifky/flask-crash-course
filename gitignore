@@ -1,0 +1,27 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Cache Python
+__pycache__/
+*.py[cod]
+
+# Database SQLite (berisi data lokal & hash password)
+*.db
+*.sqlite3
+
+# Environment variables / secret
+.env
+.env.*
+
+# Flask
+instance/
+
+# Editor
+.vscode/
+.idea/
+
+# File sistem Windows
+Thumbs.db
+desktop.ini
